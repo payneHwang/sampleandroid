@@ -25,4 +25,16 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //Logger
+    compile 'com.orhanobut:logger:1.15'
+    //net
+
+    //permission
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.1@aar'
+    compile 'io.reactivex:rxjava:1.2.3'
+
+    //Butter Knife
+    compile 'com.jakewharton:butterknife:8.8.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
 }
