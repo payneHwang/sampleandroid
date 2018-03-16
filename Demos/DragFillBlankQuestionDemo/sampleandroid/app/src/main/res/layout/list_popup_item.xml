@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="@drawable/item_check_selector"
+        android:gravity="center"
+        android:padding="@dimen/px20"
+        android:textColor="@color/T_mini_black"
+        android:textSize="14sp"
+        tools:text="示例sample text" />
+
+</LinearLayout>
