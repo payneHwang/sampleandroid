@@ -18,6 +18,13 @@
         </activity>
 
         <activity android:name=".modules.template_sample.BaseActivity" />
+        <activity
+            android:name=".modules.lock_screen_sample.LockScreenActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.sample_android.lock_screen"
+            android:theme="@style/LockScreenStyle" />
+
+        <service android:name=".modules.lock_screen_sample.LockService" />
     </application>
 
 </manifest>

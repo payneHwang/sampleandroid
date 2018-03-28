@@ -5,6 +5,21 @@
         <attr name="super_text_color" format="color" />
         <attr name="super_text_size" format="dimension" />
     </declare-styleable>
+    <declare-styleable name="MyTextView">
+        <attr name="my_text" format="string|reference" />
+        <attr name="text_color" format="color|reference" />
+    </declare-styleable>
+    <!--QQ计步器自定义属性-->
+    <declare-styleable name="StepView">
+        <attr name="border_width" format="dimension|reference" />
+        <attr name="outer_border_color" format="color|reference" />
+        <attr name="inner_border_color" format="color|reference" />
+        <attr name="max_step" format="integer|reference" />
+        <attr name="current_step" format="integer|reference" />
+        <attr name="text" format="string|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="textSize" format="dimension|reference" />
+    </declare-styleable>
 
 
 </resources>

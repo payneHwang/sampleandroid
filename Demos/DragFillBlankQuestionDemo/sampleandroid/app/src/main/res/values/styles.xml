@@ -31,4 +31,13 @@
         <item name="android:textSize">48px</item>
     </style>
 
+    <style name="LockScreenStyle" parent="AppTheme">
+        <!--背景透明颜色-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
 </resources>

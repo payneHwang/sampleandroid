@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.sample_android.MainActivity">
 
-    <com.sample_android.modules.view_sample.CirclePaint
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <com.sample_android.view.StepView
+        android:id="@+id/stepView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:border_width="10dp"
+        app:current_step="5000"
+        app:inner_border_color="@color/colorAccent"
+        app:max_step="10000"
+        app:outer_border_color="@color/colorPrimaryDark"
+        app:text="1370"
+        app:textSize="30sp"
+        app:text_color="@color/colorAccent" />
 
-</RelativeLayout>
+</LinearLayout>
