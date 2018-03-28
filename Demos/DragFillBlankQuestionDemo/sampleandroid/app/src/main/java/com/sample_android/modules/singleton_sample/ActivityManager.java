@@ -1,12 +1,12 @@
 package com.sample_android.modules.singleton_sample;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 
 import java.util.Stack;
 
 /**
  * Created by huang_jin on 2018/3/19.
+ * Activity管理栈
  */
 
 public class ActivityManager {
@@ -15,8 +15,6 @@ public class ActivityManager {
     private Stack<Activity> mStack = new Stack<>();
 
     private ActivityManager() {
-        AlertDialog.Builder  builder =new AlertDialog.Builder();
-
     }
 
     public static ActivityManager getActivityManager() {
@@ -37,7 +35,7 @@ public class ActivityManager {
         mStack.remove(activity);
     }
 
-    public void finishActivity(Activity activity) {
+    private void finishActivity(Activity activity) {
         if (activity != null) {
             activity.finish();
         }
