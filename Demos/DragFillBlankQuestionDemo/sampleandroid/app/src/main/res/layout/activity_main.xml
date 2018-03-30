@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,8 +9,9 @@
 
     <com.sample_android.view.StepView
         android:id="@+id/stepView"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         app:border_width="10dp"
         app:current_step="5000"
@@ -21,4 +22,78 @@
         app:textSize="30sp"
         app:text_color="@color/colorAccent" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/ivLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepView"
+        android:layout_centerHorizontal="true"
+        tools:src="@drawable/loading_view" />
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/ivLoading">-->
+
+    <!--<com.sample_android.view.ShapeView-->
+    <!--android:id="@+id/parallelogram"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--app:gradient_color="@color/colorAccent"-->
+    <!--app:paint_style="fill"-->
+    <!--app:shape_type="parallelogram"-->
+    <!--app:sv_border_width="2dp" />-->
+
+    <!--<com.sample_android.view.ShapeView-->
+    <!--android:id="@+id/round"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_toEndOf="@+id/parallelogram"-->
+    <!--android:layout_toRightOf="@+id/parallelogram"-->
+    <!--app:gradient_color="@color/colorAccent"-->
+    <!--app:paint_style="fill"-->
+    <!--app:shape_type="round"-->
+    <!--app:sv_border_width="1dp" />-->
+
+    <!--<com.sample_android.view.ShapeView-->
+    <!--android:id="@+id/triangle"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_toEndOf="@+id/round"-->
+    <!--android:layout_toRightOf="@+id/round"-->
+    <!--app:gradient_color="@color/colorAccent"-->
+    <!--app:paint_style="fill"-->
+    <!--app:shape_type="triangle"-->
+    <!--app:sv_border_width="2dp" />-->
+
+    <!--<com.sample_android.view.ShapeView-->
+    <!--android:id="@+id/rectangle"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_toEndOf="@+id/triangle"-->
+    <!--android:layout_toRightOf="@+id/triangle"-->
+    <!--app:gradient_color="@color/colorAccent"-->
+    <!--app:paint_style="fill"-->
+    <!--app:shape_type="rectangle"-->
+    <!--app:sv_border_width="2dp" />-->
+
+    <!--<com.sample_android.view.ShapeView-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_toEndOf="@id/rectangle"-->
+    <!--android:layout_toRightOf="@id/rectangle"-->
+    <!--app:gradient_color="@color/colorAccent"-->
+    <!--app:paint_style="fill"-->
+    <!--app:shape_type="parallelogram"-->
+    <!--app:sv_border_width="2dp" />-->
+
+    <!--</RelativeLayout>-->
+
+    <com.sample_android.view.LoadingView
+        android:id="@+id/loadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLoading"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

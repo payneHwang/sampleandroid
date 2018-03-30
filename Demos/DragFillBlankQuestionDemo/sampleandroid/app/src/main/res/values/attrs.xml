@@ -21,5 +21,23 @@
         <attr name="textSize" format="dimension|reference" />
     </declare-styleable>
 
+    <declare-styleable name="ShapeView">
+        <attr name="sv_border_width" format="dimension|reference" />
+        <attr name="border_color" format="color|reference" />
+        <attr name="gradient_color" format="color|reference" />
+        <!--CIRCLE, TRIANGLE, RECTANGLE, SQUARE, PARALLELOGRAM-->
+        <attr name="shape_type">
+            <enum name="round" value="0" />
+            <enum name="triangle" value="1" />
+            <enum name="rectangle" value="2" />
+            <enum name="square" value="3" />
+            <enum name="parallelogram" value="4" />
+        </attr>
+        <attr name="paint_style">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+        </attr>
+    </declare-styleable>
+
 
 </resources>

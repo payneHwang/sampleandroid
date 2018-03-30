@@ -1,5 +1,7 @@
 package com.sample_android.modules.singleton_sample;
 
+import android.content.Context;
+
 /**
  * Created by huang_jin on 2018/3/19.
  * 1、声明静态的成员变量实例；
@@ -11,15 +13,17 @@ package com.sample_android.modules.singleton_sample;
 
 public class SingletonDemo {
     private static volatile SingletonDemo singleInstance;
+    private Context mContext;
 
-    private SingletonDemo() {
+    private SingletonDemo(Context context) {
+        this.mContext = context;
     }
 
-    public static SingletonDemo getSingleInstance() {
+    public static SingletonDemo getSingleInstance(Context context) {
         if (singleInstance == null) {
             synchronized (SingletonDemo.class) {
                 if (singleInstance == null) {
-                    singleInstance = new SingletonDemo();
+                    singleInstance = new SingletonDemo(context);
                     return singleInstance;
                 }
             }
