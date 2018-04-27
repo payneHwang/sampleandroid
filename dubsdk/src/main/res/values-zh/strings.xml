@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tips_not_wifi">您当前正在使用移动网络，继续播放将消耗流量</string>
+    <string name="tips_not_wifi_confirm">继续播放</string>
+    <string name="tips_not_wifi_cancel">停止播放</string>
+    <string name="no_url">播放地址无效</string>
+
+    <!-- 离线打分系统 -->
+    <string name="WordTest">单词评测</string>
+    <string name="WordChoose">单词选择</string>
+    <string name="SentenceTest">句子评测</string>
+    <string name="SentenceChoose">句子选择</string>
+    <string name="PaperTest">篇章评测</string>
+    <string name="PaperChoose">篇章选择</string>
+    <string name="ParamSetting">参数设置</string>
+    <string name="ErrDetail">显示详细错误信息</string>
+    <string name="Kudou">酷豆游戏</string>
+    <string name="NewKudou">新酷豆游戏</string>
+    <string name="MyActivity">酷豆</string>
+    <string name="RecTest">命令词识别</string>
+    <string name="res_overtime_speaking">录音超时,你说话的时间超过最大录音时长</string>
+    <string name="res_error">引擎处理时输入语音数据出错</string>
+    <string name="res_timeout">引擎响应超时</string>
+    <string name="res_reject">错读或乱读，引擎拒识，请正常的录音评测</string>
+    <string name="res_recode_error">录音失败</string>
+    <string name="res_service_error">服务出错</string>
+    <string name="res_client_error">其他错误</string>
+    <string name="res_speech_timeout">语音超时</string>
+    <string name="res_response_timeout">引擎响应超时</string>
+    <string name="res_temp_error">带读音与文本不符（ivAiETP_TEMP_ERR）</string>
+    <string name="res_temp_warring">带读音质量太差（ivAiETP_TEMP_WARNING）</string>
+    <string name="res_start_wrong">构建引擎失败,请检查参数设置调整参数,重新开始评测</string>
+    <string name="res_getphone_wrong">获取单词音素错误,请检查参数设置调整参数,,然后重新开始评测</string>
+    <string name="msg_hava_res">识别结果</string>
+    <string name="msg_ok_to_repeat">确定重新开始评测?</string>
+    <string name="msg_title">信息提示</string>
+    <string name="msg_ok">确定</string>
+    <string name="msg_cancle">取消</string>
+    <string name="msg_begin_record">录音开始</string>
+    <string name="msg_end_record">录音停止</string>
+    <string name="msg_return">返回</string>
+    <string name="share_title">人教口语闯关，你敢玩儿吗？</string>
+    <string name="share_url">http://app.mypep.cn/kouyu/</string>
+    <!--  <string name="share_icon_url">http://app.mypep.cn/static/images/public_r2_c11.jpg</string>  -->
+    <string name="share_icon_url">http://app.mypep.cn/kouyu/images/public_r2_c11.jpg</string>
+    <string name="share_text">晒晒成绩，我在玩#人教口语#，悄悄告诉你，所有花时间能解决的问题都不是问题，继续闯关咯，小伙伴们快来听一听我的发音吧!</string>
+    <string name="share_page_text">我在人教英语教材%1$s闯关中分数是%2$d分，排名是%3$d名。</string>
+    <string name="manager_reply">管理员回复</string>
+    <string name="manager_praise">管理员点赞</string>
+</resources>
