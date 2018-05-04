@@ -4,7 +4,7 @@
 
     <application>
         <activity
-            android:name=".view.DubActivity"
+            android:name=".view.activity.DubActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 

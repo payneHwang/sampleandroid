@@ -17,6 +17,11 @@ android {
         }
     }
     buildToolsVersion '26.0.2'
+    allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
+    }
 }
 
 dependencies {

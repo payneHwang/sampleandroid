@@ -2,7 +2,7 @@ package com.pep.dubsdk.Jni;
 
 import android.support.annotation.Keep;
 
-import com.pep.dubsdk.audio.OnEditorListener;
+import VideoHandle.OnEditorListener;
 
 
 /**

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llListRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_en_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#99000000"
+        android:textSize="18sp"
+        tools:text="That afternoon,I found myself obsessing about the Basket boy auction." />
+
+    <TextView
+        android:id="@+id/tv_cn_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_en_sentence"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:maxLines="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="12sp"
+        tools:text="那个下午，我发现自己满脑子都是那个提篮男孩的拍卖会" />
+
+    <Button
+        android:id="@+id/clipVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cn_sentence"
+        android:layout_toLeftOf="@+id/spacer"
+        android:text="片段播放" />
+
+    <Space
+        android:id="@+id/spacer"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cn_sentence"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/deMixer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cn_sentence"
+        android:layout_toRightOf="@+id/spacer"
+        android:text="分离、录音、合成" />
+
+</RelativeLayout>

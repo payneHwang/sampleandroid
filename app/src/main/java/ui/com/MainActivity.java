@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.pep.dubsdk.view.DubActivity;
+import com.pep.dubsdk.view.activity.DubActivity;
 
 
 public class MainActivity extends AppCompatActivity {
